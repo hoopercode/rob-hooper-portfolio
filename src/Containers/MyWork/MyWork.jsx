@@ -22,7 +22,7 @@ const MyWork = () => {
           <div class="work__flipbox-inner">
             <div class="work__flipbox-front">
               <img className="work__image" src={candy} alt="" />
-              <Link to="/candy-crush">
+              <Link to="/rob-hooper-portfolio/candy-crush">
                 <button className="work__button">More Info</button>
               </Link>
             </div>
@@ -31,7 +31,7 @@ const MyWork = () => {
               <img className="work__flipbox--image" src={html5} alt="" />
               <img className="work__flipbox--image" src={css} alt="" />
               <img className="work__flipbox--image" src={javascript} alt="" />
-              <Link to="/candy-crush">
+              <Link to="/rob-hooper-portfolio/candy-crush">
                 <p className="work__link">Click for more Info</p>
               </Link>
             </div>
@@ -41,7 +41,7 @@ const MyWork = () => {
           <div class="work__flipbox-inner">
             <div class="work__flipbox-front">
               <img className="work__image" src={punk} alt="" />
-              <Link to="/punk">
+              <Link to="/rob-hooper-portfolio/punk">
                 <button className="work__button">More Info</button>
               </Link>
             </div>
@@ -51,7 +51,7 @@ const MyWork = () => {
               <img className="work__flipbox--image" src={css} alt="" />
               <img className="work__flipbox--image" src={javascript} alt="" />
               <img className="work__flipbox--image" src={react} alt="" />
-              <Link to="/punk">
+              <Link to="/rob-hooper-portfolio/punk">
                 <p className="work__link">Click for more Info</p>
               </Link>
             </div>
@@ -61,7 +61,7 @@ const MyWork = () => {
           <div class="work__flipbox-inner">
             <div class="work__flipbox-front">
               <img className="work__image" src={calculator} alt="" />
-              <Link to="/calculator">
+              <Link to="/rob-hooper-portfolio/calculator">
                 <button className="work__button">More Info</button>
               </Link>
             </div>
@@ -70,7 +70,7 @@ const MyWork = () => {
               <img className="work__flipbox--image" src={html5} alt="" />
               <img className="work__flipbox--image" src={css} alt="" />
               <img className="work__flipbox--image" src={javascript} alt="" />
-              <Link to="/calculator">
+              <Link to="/rob-hooper-portfolio/calculator">
                 <p className="work__link">Click for more Info</p>
               </Link>
             </div>
@@ -80,7 +80,7 @@ const MyWork = () => {
           <div class="work__flipbox-inner">
             <div class="work__flipbox-front">
               <img className="work__image" src={morse} alt="" />
-              <Link to="/morse">
+              <Link to="/rob-hooper-portfolio/morse">
                 <button className="work__button">More Info</button>
               </Link>
             </div>
@@ -89,7 +89,7 @@ const MyWork = () => {
               <img className="work__flipbox--image" src={html5} alt="" />
               <img className="work__flipbox--image" src={css} alt="" />
               <img className="work__flipbox--image" src={javascript} alt="" />
-              <Link to="/morse">
+              <Link to="/rob-hooper-portfolio/morse">
                 <p className="work__link">Click for more Info</p>
               </Link>
             </div>
@@ -100,7 +100,7 @@ const MyWork = () => {
             <div class="work__flipbox-front">
               <div className="work__imagebutton">
                 <img className="work__image" src={noughts} alt="" />
-                <Link to="/noughts">
+                <Link to="/rob-hooper-portfolio/noughts">
                   <button className="work__button">More Info</button>
                 </Link>
               </div>
@@ -110,7 +110,7 @@ const MyWork = () => {
               <img className="work__flipbox--image" src={html5} alt="" />
               <img className="work__flipbox--image" src={css} alt="" />
               <img className="work__flipbox--image" src={javascript} alt="" />
-              <Link to="/noughts">
+              <Link to="/rob-hooper-portfolio/noughts">
                 <p className="work__link">Click for more Info</p>
               </Link>
             </div>
