@@ -11,7 +11,7 @@ const MobileNav = (props) => {
       <img className="mobile-nav__cross"src={cross} alt="" onClick={handleClick}/>
       <div className="mobile-nav__item">
         <Link
-          to="/home"
+          to="/"
           className="mobile-nav__item--text "
           onClick={handleClick}
         ><p className="mobile-nav__item--header">Home</p>

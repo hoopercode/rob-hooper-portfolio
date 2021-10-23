@@ -14,7 +14,7 @@ import Candy from "./Components/Candy/Candy";
 
 function App() {
   return (
-    <Router basename="https://hoopercode.github.io/rob-hooper-portfolio/">
+    <Router basename="/rob-hooper-portfolio">
       <div className="App">
         <Nav />
         <Switch>
@@ -42,7 +42,7 @@ function App() {
           <Route path ="/noughts">
             <Noughts />
           </Route>
-          <Route exact path="/home">
+          <Route path="/">
             <Header />
           </Route>
         </Switch>
