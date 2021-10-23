@@ -18,7 +18,7 @@ const Punk = () => {
 
       </div>
     </div>
-    <Link to ="/rob-hooper-portfolio/my-work"><button className="punk__button">Back to Work</button></Link>
+    <Link to ="/my-work"><button className="punk__button">Back to Work</button></Link>
   </div>
   )
 }

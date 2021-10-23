@@ -18,28 +18,28 @@ function App() {
       <div className="App">
         <Nav />
         <Switch>
-          <Route path="/rob-hooper-portfolio/my-work">
+          <Route path="/my-work">
             <MyWork />
           </Route>
-          <Route path="/rob-hooper-portfolio/my-skills">
+          <Route path="/my-skills">
             <Skills />
           </Route>
-          <Route path="/rob-hooper-portfolio/contact-me">
+          <Route path="/contact-me">
             <Contact />
           </Route>
-          <Route path ="/rob-hooper-portfolio/calculator">
+          <Route path ="/calculator">
             <Calculator />
           </Route>
-          <Route path ="/rob-hooper-portfolio/candy-crush">
+          <Route path ="/candy-crush">
             <Candy />
           </Route>
-          <Route path ="/rob-hooper-portfolio/punk">
+          <Route path ="/punk">
             <Punk />
           </Route>
-          <Route path ="/rob-hooper-portfolio/morse">
+          <Route path ="/morse">
             <Morse />
           </Route>
-          <Route path ="/rob-hooper-portfolio/noughts">
+          <Route path ="/noughts">
             <Noughts />
           </Route>
           <Route path="/">
