@@ -42,7 +42,7 @@ function App() {
           <Route path ="/noughts">
             <Noughts />
           </Route>
-          <Route path="/">
+          <Route exact path="/home">
             <Header />
           </Route>
         </Switch>
