@@ -1,0 +1,62 @@
+@use "../../assets/variables.scss" as *;
+
+.punk {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  
+
+  &__body {
+    width: 60%;
+    max-height: 60%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255,255,255, .5);
+    border-radius: 20px;
+  }
+
+  &__blurb {
+    font-family: $subHeader;
+    font-size: 1.5vw;
+    width: 40vw;
+    color: black;
+    
+  }
+
+  &__text {
+    font-family: $subHeader;
+    margin-right: 1vw;
+  }
+
+  &__text--header {
+    font-weight: 800;
+  }
+
+  &__text--link:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+
+
+  &__header {
+    font-family: $header;
+    font-size: 5vw;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+
+  &__image {
+    margin: 2vh;
+    height: 70%;
+    border-radius: 20px;
+
+  }
+}

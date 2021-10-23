@@ -1,0 +1,26 @@
+@use "../../assets/variables.scss" as *;
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: linear-gradient(to right top, #c4fcef, #a0e5e7, #82cddf, #6fb4d6, #699ac9);
+  height: 100vh;
+ 
+
+  &__header {
+   font-size: 10vw;
+   font-family: $header;
+   color: white;
+   font-weight: 100;
+   margin-bottom: 0px;
+  }
+
+  &__subheading {
+    font-family: $subHeaderAlt;
+    font-size: 4vw;
+    color: white;
+    font-weight: 1000;
+  }
+}

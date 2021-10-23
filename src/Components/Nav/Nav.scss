@@ -1,0 +1,28 @@
+@use "../../assets/variables.scss" as *;
+
+.topnav {
+  background-color: white;
+  opacity: 0.2;
+  position: sticky;
+  height: 7vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+&__item  {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  margin-right: 15px;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 1.5vw;
+  font-weight: 900;
+}
+
+&__item:hover {
+  background-color: #ddd;
+  color: black;
+}
+}

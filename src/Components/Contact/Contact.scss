@@ -1,0 +1,59 @@
+@use "../../assets/variables.scss"as *;
+
+.contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  &__body {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &__header {
+    font-family: $header;
+    font-size: 5vw;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+
+  &__text {
+    
+    font-family: $subHeader;
+    font-size: 2vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    text-align: center;
+    color: white;
+  }
+
+  &__profileimage {
+    border-radius: 20px;
+    height: 30vh;
+    width: auto;
+    margin-bottom: 5vh;
+  }
+
+
+  &__images {
+    display: flex;
+    flex-direction: row;
+    width: 10vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__image {
+    margin-top: 2vh;
+    height: 7vh;
+    width: auto;
+  }
+}

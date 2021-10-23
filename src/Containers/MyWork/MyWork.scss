@@ -1,0 +1,116 @@
+@use "../../assets/variables.scss"as *;
+
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  &__header {
+    font-family: $header;
+    font-size: 5vw;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+
+  &__grid {
+    margin-top: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px 20px;
+  }
+
+  &__image {
+    height: 30vh;
+    width: auto;
+    border-radius: 10px;
+  }
+
+  &__link {
+    color: white;
+    font-family: $subHeader;
+    font-weight: 900;
+    text-decoration: underline;
+  }
+
+  &__link:visited {
+    color: inherit;
+  }
+
+  &__hover {
+    font-family: $subHeaderAlt;
+    font-size: 3vw;
+    color: white;
+    font-weight: 1000;
+    margin-top: 0.5vh;
+    margin-bottom: 2vh;
+  }
+
+
+
+&__flipbox {
+  background-color: transparent;
+  height: 30vh;
+  width: auto;
+  
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+&__flipbox-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+&__flipbox:hover &__flipbox-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+&__flipbox-front,
+&__flipbox-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+
+&__flipbox--image {
+  height: 5vh;
+  width: auto;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 1vh;
+}
+
+/* Style the front side (fallback if image is missing) */
+&__flipbox-front {
+  background-color: transparent;
+  border-radius: 20px;
+  color: black;
+}
+
+/* Style the back side */
+&__flipbox-back {
+  border-radius: 20px;
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+}
