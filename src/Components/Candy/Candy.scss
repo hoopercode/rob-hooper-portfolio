@@ -2,7 +2,7 @@
 @use "../../assets/mixins.scss"as *;
 
 .candy {
-  height: 93vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -19,6 +19,7 @@
     justify-content: space-around;
     background-color: rgba(255, 255, 255, .5);
     border-radius: 20px;
+    text-align: center;
 
     @include mobile {
       width: 70vw;
@@ -26,7 +27,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: space-around;
+      justify-content: flex-start;
     }
   }
 
@@ -36,8 +37,10 @@
     width: 50vw;
     color: black;
 
+
     @include mobile {
       font-size: 3vw;
+      
     }
 
   }
@@ -45,6 +48,12 @@
   &__text {
     font-family: $subHeader;
     margin-right: 1vw;
+
+    @include mobile {
+      margin-bottom: 3vh;
+      
+    }
+
   }
 
   &__text--header {
@@ -54,6 +63,22 @@
   &__text--link:visited {
     text-decoration: none;
     color: inherit;
+  }
+
+  &__skill-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__skill-image {
+    display:none;
+
+    @include mobile {
+      display: block;
+      height: 3vh;
+    }
   }
 
 
@@ -68,7 +93,6 @@
 
     @include mobile {
       font-size: 10vw;
-      max-width: 40vw;
       margin-top: 3vh;
     }
   }
