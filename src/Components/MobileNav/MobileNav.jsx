@@ -11,7 +11,7 @@ const MobileNav = (props) => {
       <img className="mobile-nav__cross"src={cross} alt="" onClick={handleClick}/>
       <div className="mobile-nav__item">
         <Link
-          to="/"
+          to="/rob-hooper-portfolio"
           className="mobile-nav__item--text "
           onClick={handleClick}
         ><p className="mobile-nav__item--header">Home</p>
@@ -20,7 +20,7 @@ const MobileNav = (props) => {
       </div>
       <div className="mobile-nav__item">
         <Link
-          to="/my-work"
+          to="/rob-hooper-portfolio/my-work"
           className="mobile-nav__item--text "
           onClick={handleClick}
           
@@ -29,7 +29,7 @@ const MobileNav = (props) => {
       </div>
       <div className="mobile-nav__item">
         <Link
-          to="/my-skills"
+          to="/rob-hooper-portfolio/my-skills"
           className="mobile-nav__item--text "
           onClick={handleClick}
         ><p className="mobile-nav__item--header">Skills</p>
@@ -38,7 +38,7 @@ const MobileNav = (props) => {
       </div>
       <div className="mobile-nav__item">
         <Link
-          to="/contact-me"
+          to="/rob-hooper-portfolio/contact-me"
           className="mobile-nav__item--text "
           onClick={handleClick}
         ><p className="mobile-nav__item--header">Contact</p>
