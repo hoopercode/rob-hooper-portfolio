@@ -14,32 +14,32 @@ import Candy from "./Components/Candy/Candy";
 
 function App() {
   return (
-    <Router basename="/rob-hooper-portfolio">
+    <Router>
       <div className="App">
         <Nav />
         <Switch>
-          <Route path="/my-work">
+          <Route path="/rob-hooper-portfolio/my-work">
             <MyWork />
           </Route>
-          <Route path="/my-skills">
+          <Route path="/rob-hooper-portfolio/my-skills">
             <Skills />
           </Route>
-          <Route path="/contact-me">
+          <Route path="/rob-hooper-portfolio/contact-me">
             <Contact />
           </Route>
-          <Route path ="/calculator">
+          <Route path ="/rob-hooper-portfolio/calculator">
             <Calculator />
           </Route>
-          <Route path ="/candy-crush">
+          <Route path ="/rob-hooper-portfolio/candy-crush">
             <Candy />
           </Route>
-          <Route path ="/punk">
+          <Route path ="/rob-hooper-portfolio/punk">
             <Punk />
           </Route>
-          <Route path ="/morse">
+          <Route path ="/rob-hooper-portfolio/morse">
             <Morse />
           </Route>
-          <Route path ="/noughts">
+          <Route path ="/rob-hooper-portfolio/noughts">
             <Noughts />
           </Route>
           <Route path="/">
