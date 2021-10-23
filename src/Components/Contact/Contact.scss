@@ -48,6 +48,13 @@
     margin-bottom: 1vh;
     text-align: center;
     color: white;
+
+    @include mobile {
+      font-size: 5vw;
+    }
+    @include tablet {
+      font-size: 4vw;
+    }
   }
 
   &__profileimage {
