@@ -1,12 +1,20 @@
-@use "../../assets/variables.scss" as *;
-
+@use "../../assets/variables.scss"as *;
+@use "../../assets/mixins.scss"as *;
 
 .myskills {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 100vh;
+  height: 93vh;
+
+  @include mobile {
+    height: auto;
+  }
+
+  @include tablet {
+    height: auto;
+  }
 
   &__header {
     font-size: 5vw;
@@ -15,24 +23,53 @@
     font-weight: 100;
     margin-top: 5px;
     margin-bottom: 25px;
+    
+    @include tablet {
+      font-size: 8vw;
+    }
+
+    @include mobile {
+      font-size: 10vw;
+    }
   }
 
   &__grid {
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 1fr; 
-    gap: 7vh 5vw; 
-   
-    background-color: rgba(255,255,255, .5);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 7vh 5vw;
+    margin-bottom: 5vh;
+    background-color: rgba(255, 255, 255, .5);
     border-radius: 20px;
     padding: 20px;
+
+    @include mobile {
+      display: grid;
+      grid-template-columns: 1fr ;
+      grid-template-rows: auto;
+      gap: 10vh;
+      width: 80vw;
+    }
+
+    @include tablet {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto;
+      gap: 15vh 20px;
+      width: 80vw;
+    }
   }
 
   &__image {
     display: flex;
     align-self: center;
     justify-self: center;
+
+    @include mobile {
+    height: 20vh;
+    width: auto;
+    }
   }
 }
 

@@ -16,7 +16,7 @@ import jest from "../../assets/images/jestBigger.svg";
 const Skills = () => {
   return (
     <div className="myskills">
-      <h1 className="myskills__header">An Overview of my Tech Stack</h1>
+      <h1 className="myskills__header">Tech Stack</h1>
       <div className="myskills__grid">
         <div class="tooltip">
           <img class="myskills__image" src={react} alt="" />

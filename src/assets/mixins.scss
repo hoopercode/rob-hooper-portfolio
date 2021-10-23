@@ -1,0 +1,12 @@
+@use "../assets/variables.scss"as *;
+
+
+
+@mixin mobile {
+  @media screen and (max-width: $breakpoint-mobile) { @content }
+};
+
+@mixin tablet {
+  @media screen and (max-width: $breakpoint-tablet) and (min-width: $breakpoint-mobile) {@content}
+}
+
