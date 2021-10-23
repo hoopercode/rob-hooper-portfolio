@@ -18,7 +18,7 @@ const Candy = () => {
 
         </div>
       </div>
-      <Link to ="/my-work"><button className="candy__button">Back to Work</button></Link>
+      <Link to ="/rob-hooper-portfolio/my-work"><button className="candy__button">Back to Work</button></Link>
     </div>
   );
 };

@@ -16,7 +16,7 @@ const Calculator = () => {
       <a href=""><p className="calculator__text--link"target="_blank">Link to Live Project</p></a>
       </div>
     </div>
-    <Link to ="/my-work"><button className="calculator__button">Back to Work</button></Link>
+    <Link to ="/rob-hooper-portfolio/my-work"><button className="calculator__button">Back to Work</button></Link>
   </div>
   )
 }
