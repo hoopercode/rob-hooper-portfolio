@@ -14,9 +14,10 @@ const Candy = () => {
         <img className="candy__image" src={candy} alt="" />
         <div className="candy__blurb">
           <h3 className="candy__text--header">Outline</h3>
+          <h4 className="candy__text--header">(Not compatible with mobile)</h4>
           <p className="candy__text">
             This was a project given to use during my time completing the 12
-            Week Nology Course.{" "}
+            Week Nology Course.
           </p>
           <p className="candy__text">
             Brief: Put everything you’ve learned in your first 3 weeks to the
@@ -31,8 +32,8 @@ const Candy = () => {
           <a href="https://github.com/hoopercode/candy-crush" target="_blank">
             <p className="candy__text--link">Link to Github</p>
           </a>
-          <a href="https://hoopercode.github.io/candy-crush/">
-            <p className="candy__text--link" target="_blank">
+          <a href="https://hoopercode.github.io/candy-crush/"target="_blank">
+            <p className="candy__text--link" >
               Link to Live Project
             </p>
           </a>

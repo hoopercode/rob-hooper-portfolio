@@ -37,8 +37,8 @@ const Punk = () => {
           <a href="https://github.com/hoopercode/punk" target="_blank">
             <p className="punk__text--link">Link to Github</p>
           </a>
-          <a href="https://hoopercode.github.io/beers-api/">
-            <p className="punk__text--link" target="_blank">
+          <a href="https://hoopercode.github.io/beers-api/"target="_blank">
+            <p className="punk__text--link" >
               Link to Live Project
             </p>
           </a>

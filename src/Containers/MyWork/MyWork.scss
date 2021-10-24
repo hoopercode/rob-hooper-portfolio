@@ -9,14 +9,18 @@
 
   @include mobile {
     height: auto;
-   
+    align-items: normal;
+
   }
 
   @include tablet {
     height: auto;
-    
+
   }
 
+  &__flipbox--morse {
+    grid-area: 2 / 3 / 3 / 4;
+  }
 
   &__header {
     font-family: $header;
@@ -25,7 +29,7 @@
     color: white;
     font-weight: 100;
     margin-top: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 
     @include tablet {
       font-size: 8vw;
@@ -42,36 +46,27 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 20px 20px;
-
-    @include tablet {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    gap: 20px 20px;
-    margin-bottom: 3vh;
-      
-    }
-
-    
-
-    @include mobile {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: auto;
-      gap: 15vh 20px;
-      margin-bottom: 10vh;
-    }
+    gap: 2vh 3vw;
 
     @include tablet {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: auto;
-      gap: 20vh 20vw;
-      margin-bottom: 10vh;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 50px 20px;
+      margin-bottom: 3vh;
+
     }
 
-    
+    @include mobile {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      gap: 15vh 20px;
+      margin-bottom: 10vh;
+
+    }
+
+
   }
 
   &__image {
@@ -84,7 +79,7 @@
       width: auto;
       border-radius: 10px;
     }
-    
+
   }
 
   &__link {
@@ -104,7 +99,7 @@
       margin-bottom: 2vh;
     }
   }
-  
+
 
   &__hover {
     font-family: $subHeaderAlt;
@@ -199,6 +194,7 @@
     @include mobile {
       transform: none;
     }
+
     @include tablet {
       transform: none;
     }
@@ -222,7 +218,7 @@
     margin-right: 1vw;
     margin-top: 1vh;
 
-    
+
   }
 
   /* Style the front side (fallback if image is missing) */
@@ -238,6 +234,53 @@
     background-color: dodgerblue;
     color: white;
     transform: rotateY(180deg);
+  }
+
+}
+
+.placeholderimage {
+  opacity: 0;
+}
+
+.placeholderdiv {
+  
+  height: 30vh;
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 20px;
+
+  @include mobile {
+    display: none;
+  }
+
+
+  @include tablet {
+    
+  }
+}
+
+.recentwork {
+  font-family: $subHeader;
+  justify-self: center;
+  padding-top: 6vh;
+  text-align: center;
+  margin:auto;
+  width: 15vw;
+  font-size: 2vw;
+  color: white;
+  font-weight: 900;
+  align-self: center;
+  justify-self: center;
+
+  @include mobile {
+    font-size: 8vw;
+    display: none;
+  }
+
+
+  @include tablet {
+    font-size: 3vw;
+    width: 30vw;
+   
   }
 
 }

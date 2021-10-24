@@ -22,7 +22,7 @@ const Morse = () => {
             <img className="punk__skill-image" src={javascript} alt="" />
           </div>
         <a href="https://github.com/hoopercode/rob-morse"target="_blank"><p className="morse__text--link">Link to Github</p></a>
-        <a href=""><p className="morse__text--link"target="_blank">Link to Live Project</p></a>
+        <a href="https://hoopercode.github.io/rob-morse/"target="_blank"><p className="morse__text--link">Link to Live Project</p></a>
 
         </div>
       </div>

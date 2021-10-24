@@ -23,8 +23,7 @@ const Calculator = () => {
             language of choice. Normally this is easy in pure JS but we are web
             developers, which means we need a UI to go with our logic. The end
             goal here is to have a site which can accept inputs, do some
-            calculations and give you the outputs. The inputs will be generated
-            from users clicking on the calculator buttons.{" "}
+            calculations and give you the outputs.
           </p>
           <div className="punk__skill-images">
             <img className="punk__skill-image" src={html5} alt="" />

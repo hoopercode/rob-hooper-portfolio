@@ -10,6 +10,7 @@ import Noughts from "./Components/Noughts/Noughts";
 import Calculator from "./Components/Calculator/Calculator";
 import Morse from "./Components/Morse/Morse";
 import Candy from "./Components/Candy/Candy";
+import Redux from "./Components/Redux-music/Redux";
 
 
 function App() {
@@ -39,8 +40,8 @@ function App() {
           <Route path ="/morse">
             <Morse />
           </Route>
-          <Route path ="/noughts">
-            <Noughts />
+          <Route path ="/redux">
+            <Redux />
           </Route>
           <Route path="/">
             <Header />
