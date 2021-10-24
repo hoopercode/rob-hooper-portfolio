@@ -14,12 +14,12 @@
   }
 
   @include tablet {
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 125vh;
 
-  }
-
-  &__flipbox--morse {
-    grid-area: 2 / 3 / 3 / 4;
   }
 
   &__header {
@@ -60,7 +60,7 @@
     @include mobile {
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
       gap: 15vh 20px;
       margin-bottom: 10vh;
 
@@ -70,13 +70,21 @@
   }
 
   &__image {
-    height: 30vh;
-    width: auto;
+    width: 25vw;
+    height: auto;
     border-radius: 10px;
 
     @include mobile {
-      height: 35vh;
-      width: auto;
+      width: 80vw;
+      height: auto;
+      border-radius: 10px;
+      justify-self: center;
+      align-self: center;
+    }
+    @include tablet {
+  
+      width: 40vw;
+      height: auto;
       border-radius: 10px;
     }
 
@@ -97,6 +105,12 @@
 
     @include mobile {
       margin-bottom: 2vh;
+    }
+
+    @include mobile {
+      margin-bottom: 2vh;
+      max-width: 2vw;
+      height: auto;
     }
   }
 
@@ -122,6 +136,7 @@
     display: none;
 
     @include mobile {
+      width: 80vw;
       margin-top: 4vh;
       box-shadow: inset 0px 1px 0px 0px #fff6af;
       background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
@@ -143,6 +158,8 @@
     }
 
     @include tablet {
+      width: 40vw;
+      height: 30px;
       margin-top: 4vh;
       box-shadow: inset 0px 1px 0px 0px #fff6af;
       background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
@@ -155,7 +172,7 @@
       font-family: Arial;
       font-size: 15px;
       font-weight: bold;
-      padding: 6px 24px;
+      padding: 6px 0px;
       text-decoration: none;
       text-shadow: 0px 1px 0px #ffee66;
       display: block;
@@ -168,8 +185,8 @@
 
   &__flipbox {
     background-color: transparent;
-    height: 30vh;
-    width: auto;
+    width: 25vw;
+    height: auto;
 
     perspective: 1000px;
     /* Remove this if you don't want the 3D effect */
@@ -223,9 +240,15 @@
 
   /* Style the front side (fallback if image is missing) */
   &__flipbox-front {
+   
+    align-self: center;
     background-color: transparent;
     border-radius: 20px;
     color: black;
+
+    @include mobile {
+      width: 100vw;
+    }
   }
 
   /* Style the back side */
@@ -238,49 +261,3 @@
 
 }
 
-.placeholderimage {
-  opacity: 0;
-}
-
-.placeholderdiv {
-  
-  height: 30vh;
-  background-color: rgba(255, 255, 255, .5);
-  border-radius: 20px;
-
-  @include mobile {
-    display: none;
-  }
-
-
-  @include tablet {
-    
-  }
-}
-
-.recentwork {
-  font-family: $subHeader;
-  justify-self: center;
-  padding-top: 6vh;
-  text-align: center;
-  margin:auto;
-  width: 15vw;
-  font-size: 2vw;
-  color: white;
-  font-weight: 900;
-  align-self: center;
-  justify-self: center;
-
-  @include mobile {
-    font-size: 8vw;
-    display: none;
-  }
-
-
-  @include tablet {
-    font-size: 3vw;
-    width: 30vw;
-   
-  }
-
-}

@@ -11,6 +11,7 @@ import css from "../../assets/images/cssLogo.svg";
 import javascript from "../../assets/images/javascriptLogo.svg";
 import react from "../../assets/images/reactLogo.svg";
 import redux from "../../assets/images/redux-project.png";
+import moreComing from "../../assets/images/more.gif"
 
 const MyWork = () => {
   return (
@@ -21,12 +22,10 @@ const MyWork = () => {
       <div class="work__flipbox">
           <div class="work__flipbox-inner">
             <div class="work__flipbox-front">
-              <div className="work__imagebutton">
-                <img className="work__image" src={redux} alt="" />
+            <img className="work__image" src={redux} alt="" />
                 <Link to="/redux">
                   <button className="work__button">More Info</button>
                 </Link>
-              </div>
             </div>
             <div class="work__flipbox-back">
               <h2>Redux Music Player</h2>
@@ -116,10 +115,7 @@ const MyWork = () => {
             </div>
           </div>
         </div>
-        <div className="placeholderdiv">
-        <h2 className="recentwork">A collection of work from personal projects and nology course work</h2>
-        <img className="placeholderimage" src={placeholder} alt="" />
-        </div>
+        <img className="work__image" src={moreComing} alt="" />
       </div>
     </div>
   );
