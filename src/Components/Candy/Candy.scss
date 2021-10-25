@@ -16,8 +16,8 @@
   }
 
   &__body {
-    max-width: 80%;
-    height: 60%;
+    max-width: 80vw;
+    height: 60vh;
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -48,7 +48,7 @@
 
   &__blurb {
     font-family: $subHeader;
-    font-size: 1.5vw;
+    margin-right: 20px;
     width: 80%;
     color: black;
     display: flex;
@@ -85,7 +85,9 @@
   }
 
   &__text--header {
+    font-size: 2vw;
     font-weight: 800;
+    text-decoration: underline;
     
   }
 &__text--link {
@@ -109,6 +111,13 @@
   &__text--link:visited {
     text-decoration: none;
     color: inherit;
+  }
+  &__links-container{
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
   }
 
   &__skill-images {

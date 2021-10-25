@@ -25,12 +25,12 @@ const Calculator = () => {
             goal here is to have a site which can accept inputs, do some
             calculations and give you the outputs.
           </p>
-          <div className="punk__skill-images">
-            <img className="punk__skill-image" src={html5} alt="" />
-            <img className="punk__skill-image" src={css} alt="" />
-            <img className="punk__skill-image" src={javascript} alt="" />
+          <div className="calculator__skill-images">
+            <img className="calculator__skill-image" src={html5} alt="" />
+            <img className="calculator__skill-image" src={css} alt="" />
+            <img className="calculator__skill-image" src={javascript} alt="" />
           </div>
-          <div className="calculator__links">
+          <div className="calculator__links-container">
           <a href="https://github.com/hoopercode/calculator" target="_blank">
             <p className="calculator__text--link">Link to Github</p>
           </a>

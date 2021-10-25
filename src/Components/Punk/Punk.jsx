@@ -33,7 +33,7 @@ const Punk = () => {
           <img className="punk__skill-image" src={react} alt="" />
           </div>
           
-
+            <div className="punk__links-container">
           <a href="https://github.com/hoopercode/punk" target="_blank">
             <p className="punk__text--link">Link to Github</p>
           </a>
@@ -42,6 +42,7 @@ const Punk = () => {
               Link to Live Project
             </p>
           </a>
+          </div>
         </div>
       </div>
       <Link to="/my-work">

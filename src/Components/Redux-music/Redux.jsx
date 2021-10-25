@@ -18,14 +18,16 @@ const Redux = () => {
         <h3 className="redux__text--header">Outline</h3>
         <p  className="redux__text">This was a project that I completed as part of the DevEd - React/Redux course.</p>
         <p className="redux__text">The aim of the project was to use all the React JS knowledge that I had gained up until that point to create something fun and entertaining.  On top of this, the goal was also to make it elegant and mobile friendly.  I think that I achieved this.</p>
-        <div className="punk__skill-images">
-            <img className="punk__skill-image" src={html5} alt="" />
-            <img className="punk__skill-image" src={css} alt="" />
-            <img className="punk__skill-image" src={javascript} alt="" />
-            <img className="punk__skill-image" src={react} alt="" />
+        <div className="redux__skill-images">
+            <img className="redux__skill-image" src={html5} alt="" />
+            <img className="redux__skill-image" src={css} alt="" />
+            <img className="redux__skill-image" src={javascript} alt="" />
+            <img className="redux__skill-image" src={react} alt="" />
           </div>
+          <div className="redux__links-container">
         <a href="https://github.com/hoopercode/redux-music-player"target="_blank"><p className="redux__text--link">Link to Github</p></a>
         <a href="https://hoopercode.github.io/redux-music-player/"target="_blank"><p className="redux__text--link">Link to Live Project</p></a>
+        </div>
 
         </div>
       </div>

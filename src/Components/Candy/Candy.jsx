@@ -24,11 +24,12 @@ const Candy = () => {
             test by designing and building your own full functioning browser
             based game using HTML, CSS/SCSS and JavaScript.
           </p>
-          <div className="punk__skill-images">
-            <img className="punk__skill-image" src={html5} alt="" />
-            <img className="punk__skill-image" src={css} alt="" />
-            <img className="punk__skill-image" src={javascript} alt="" />
+          <div className="candy__skill-images">
+            <img className="candy__skill-image" src={html5} alt="" />
+            <img className="candy__skill-image" src={css} alt="" />
+            <img className="candy__skill-image" src={javascript} alt="" />
           </div>
+          <div className="candy__links-container" >
           <a href="https://github.com/hoopercode/candy-crush" target="_blank">
             <p className="candy__text--link">Link to Github</p>
           </a>
@@ -37,6 +38,7 @@ const Candy = () => {
               Link to Live Project
             </p>
           </a>
+          </div>
         </div>
       </div>
       <Link to="/my-work">

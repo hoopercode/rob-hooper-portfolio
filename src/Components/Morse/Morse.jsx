@@ -16,14 +16,15 @@ const Morse = () => {
         <h3 className="morse__text--header">Outline</h3>
         <p  className="morse__text">This was a project given to use during my time completing the 12 Week Nology Course. </p>
         <p className="morse__text">Brief:  You’re tasked with creating a morse code translator using TDD. It should be able to translate based on user input from the DOM.</p>
-        <div className="punk__skill-images">
-            <img className="punk__skill-image" src={html5} alt="" />
-            <img className="punk__skill-image" src={css} alt="" />
-            <img className="punk__skill-image" src={javascript} alt="" />
+        <div className="morse__skill-images">
+            <img className="morse__skill-image" src={html5} alt="" />
+            <img className="morse__skill-image" src={css} alt="" />
+            <img className="morse__skill-image" src={javascript} alt="" />
           </div>
+          <div className="morse__links-container">
         <a href="https://github.com/hoopercode/rob-morse"target="_blank"><p className="morse__text--link">Link to Github</p></a>
         <a href="https://hoopercode.github.io/rob-morse/"target="_blank"><p className="morse__text--link">Link to Live Project</p></a>
-
+        </div>
         </div>
       </div>
       <Link to ="/my-work"><button className="morse__button">Back to Work</button></Link>
