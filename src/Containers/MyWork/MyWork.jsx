@@ -19,16 +19,16 @@ const MyWork = () => {
       <h1 className="work__header">Portfolio</h1>
       <h3 className="work__hover">Hover for more information</h3>
       <div className="work__grid">
-      <div class="work__flipbox">
-          <div class="work__flipbox-inner">
-            <div class="work__flipbox-front">
+      <div className="work__flipbox">
+          <div className="work__flipbox-inner">
+            <div className="work__flipbox-front">
             <img className="work__image" src={redux} alt="" />
                 <Link to="/redux">
                   <button className="work__button">More Info</button>
                 </Link>
             </div>
-            <div class="work__flipbox-back">
-              <h2>Redux Music Player</h2>
+            <div className="work__flipbox-back">
+              <h2 className="work__flipbox-back--header">Redux Music Player</h2>
               <img className="work__flipbox--image" src={html5} alt="" />
               <img className="work__flipbox--image" src={css} alt="" />
               <img className="work__flipbox--image" src={javascript} alt="" />
@@ -38,16 +38,16 @@ const MyWork = () => {
             </div>
           </div>
         </div>
-         <div class="work__flipbox">
-          <div class="work__flipbox-inner">
-            <div class="work__flipbox-front">
+         <div className="work__flipbox">
+          <div className="work__flipbox-inner">
+            <div className="work__flipbox-front">
               <img className="work__image" src={punk} alt="" />
               <Link to="/punk">
                 <button className="work__button">More Info</button>
               </Link>
             </div>
-            <div class="work__flipbox-back">
-              <h2>Punk API</h2>
+            <div className="work__flipbox-back">
+              <h2 className="work__flipbox-back--header">Punk API</h2>
               <img className="work__flipbox--image" src={html5} alt="" />
               <img className="work__flipbox--image" src={css} alt="" />
               <img className="work__flipbox--image" src={javascript} alt="" />
@@ -58,16 +58,16 @@ const MyWork = () => {
             </div>
           </div>
         </div>
-        <div class="work__flipbox">
-          <div class="work__flipbox-inner">
-            <div class="work__flipbox-front">
+        <div className="work__flipbox">
+          <div className="work__flipbox-inner">
+            <div className="work__flipbox-front">
               <img className="work__image" src={candy} alt="" />
               <Link to="/candy-crush">
                 <button className="work__button">More Info</button>
               </Link>
             </div>
-            <div class="work__flipbox-back">
-              <h2>Candy Crush</h2>
+            <div className="work__flipbox-back">
+              <h2 className="work__flipbox-back--header">Candy Crush</h2>
               <img className="work__flipbox--image" src={html5} alt="" />
               <img className="work__flipbox--image" src={css} alt="" />
               <img className="work__flipbox--image" src={javascript} alt="" />
@@ -77,16 +77,16 @@ const MyWork = () => {
             </div>
           </div>
         </div>
-        <div class="work__flipbox">
-          <div class="work__flipbox-inner">
-            <div class="work__flipbox-front">
+        <div className="work__flipbox">
+          <div className="work__flipbox-inner">
+            <div className="work__flipbox-front">
               <img className="work__image" src={calculator} alt="" />
               <Link to="/calculator">
                 <button className="work__button">More Info</button>
               </Link>
             </div>
-            <div class="work__flipbox-back">
-              <h2>Calculator</h2>
+            <div className="work__flipbox-back">
+              <h2 className="work__flipbox-back--header">Calculator</h2>
               <img className="work__flipbox--image" src={html5} alt="" />
               <img className="work__flipbox--image" src={css} alt="" />
               <img className="work__flipbox--image" src={javascript} alt="" />
@@ -96,16 +96,16 @@ const MyWork = () => {
             </div>
           </div>
         </div>
-        <div class="work__flipbox">
-          <div class="work__flipbox-inner">
-            <div class="work__flipbox-front">
+        <div className="work__flipbox">
+          <div className="work__flipbox-inner">
+            <div className="work__flipbox-front">
               <img className="work__image" src={morse} alt="" />
               <Link to="/morse">
                 <button className="work__button">More Info</button>
               </Link>
             </div>
-            <div class="work__flipbox-back">
-              <h2>Morse Code Translator</h2>
+            <div className="work__flipbox-back">
+              <h2 className="work__flipbox-back--header">Morse Code Translator</h2>
               <img className="work__flipbox--image" src={html5} alt="" />
               <img className="work__flipbox--image" src={css} alt="" />
               <img className="work__flipbox--image" src={javascript} alt="" />

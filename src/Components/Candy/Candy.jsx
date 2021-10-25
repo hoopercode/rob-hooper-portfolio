@@ -14,7 +14,6 @@ const Candy = () => {
         <img className="candy__image" src={candy} alt="" />
         <div className="candy__blurb">
           <h3 className="candy__text--header">Outline</h3>
-          <h4 className="candy__text--header">(Not compatible with mobile)</h4>
           <p className="candy__text">
             This was a project given to use during my time completing the 12
             Week Nology Course.

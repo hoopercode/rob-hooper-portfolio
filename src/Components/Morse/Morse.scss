@@ -128,7 +128,8 @@
   }
 
   &__skill-image {
-    display:none;
+    height: 5vh;
+   
 
     @include mobile {
       display: block;

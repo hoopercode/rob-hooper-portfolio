@@ -70,7 +70,7 @@
   }
 
   &__image {
-    width: 25vw;
+    width: 15vw;
     height: auto;
     border-radius: 10px;
 
@@ -185,7 +185,7 @@
 
   &__flipbox {
     background-color: transparent;
-    width: 25vw;
+    width: 15vw;
     height: auto;
 
     perspective: 1000px;
@@ -229,13 +229,15 @@
   }
 
   &__flipbox--image {
-    height: 5vh;
-    width: auto;
+    width: 2vw;
     margin-left: 1vw;
     margin-right: 1vw;
     margin-top: 1vh;
 
 
+  }
+  &__flipbox-back--header {
+    font-size: 1.5vw;
   }
 
   /* Style the front side (fallback if image is missing) */

@@ -2,14 +2,14 @@
 @use "../../assets/mixins.scss"as *;
 
 .punk {
-  height: 115vh;
+  height: 110vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 
   @include mobile {
-    height: 150vh;
+    height: 120vh;
   }
   @include tablet {
     height: 140vh;
@@ -37,8 +37,8 @@
     }
 
     @include mobile {
-      width: 100vw;
-      min-height: 100vh;
+      width: 70vw;
+      min-height: 90vh;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -112,7 +112,6 @@
     text-decoration: none;
     color: inherit;
   }
-
   &__links-container{
     width: 30vw;
     display: flex;
@@ -123,13 +122,15 @@
 
   &__skill-images {
     display: flex;
+    width: 40vw;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
   }
 
   &__skill-image {
-    display:none;
+    height: 5vh;
+   
 
     @include mobile {
       display: block;

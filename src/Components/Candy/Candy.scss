@@ -122,13 +122,15 @@
 
   &__skill-images {
     display: flex;
+    width: 40vw;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
   }
 
   &__skill-image {
-    display:none;
+    height: 5vh;
+   
 
     @include mobile {
       display: block;

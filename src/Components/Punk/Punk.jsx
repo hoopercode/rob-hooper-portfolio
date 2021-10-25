@@ -10,7 +10,7 @@ import react from "../../assets/images/reactLogo.svg";
 const Punk = () => {
   return (
     <div className="punk">
-      <h1 className="punk__header">Punk Beers API Challenge</h1>
+      <h1 className="punk__header">Punk Beers API</h1>
       <div className="punk__body">
         <img className="punk__image" src={punk} alt="" />
         <div className="punk__blurb">
