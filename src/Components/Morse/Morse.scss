@@ -11,6 +11,9 @@
   @include mobile {
     height: 130vh;
   }
+  @include tablet {
+    height: 140vh;
+  }
 
   &__body {
     max-width: 80%;
