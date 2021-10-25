@@ -9,7 +9,7 @@
   align-items: center;
 
   @include mobile {
-    height: 140vh;
+    height: 150vh;
   }
 
   &__body {
@@ -34,7 +34,7 @@
     }
 
     @include mobile {
-      width: 80vw;
+      width: 100vw;
       min-height: 100vh;
       display: flex;
       flex-direction: column;
