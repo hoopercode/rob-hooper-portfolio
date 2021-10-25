@@ -51,6 +51,7 @@
     display: flex;
     flex-direction: row;
     width: 30vw;
+    margin-top: 5vh;
     justify-content: space-around;
     align-items: center;
 
@@ -83,5 +84,45 @@
     @include mobile {
       height: 4vh;
   }
+  
 }
+&__button {
+  margin-top: 5vh;
+  width: 100px;
+  height: 15px;
+  text-align: center;
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:18px 19px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+
+  @include tablet {
+    margin-bottom: 20vh;
+}
+@include mobile {
+  margin-bottom: 20vh;
+  width: 70px;
+  height: 14px;
+  font-size:12px;
+}
+}
+&__button:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+&__button:active {
+	position:relative;
+	top:1px;
+}
+
 }
