@@ -49,7 +49,7 @@
   &__blurb {
     font-family: $subHeader;
     margin-right: 20px;
-    width: 80%;
+    width: 60%;
     color: black;
     display: flex;
     flex-direction: column;
@@ -61,6 +61,7 @@
     @include mobile {
       font-size: 3vw;
       margin-right: 0px;
+      width: 80%;
       
       
     }
