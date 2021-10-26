@@ -9,7 +9,7 @@
   align-items: center;
 
   @include mobile {
-    height: 140vh;
+    height: 150vh;
   }
   @include tablet {
     height: 140vh;
@@ -38,7 +38,7 @@
 
     @include mobile {
       width: 70vw;
-      min-height: 100vh;
+      min-height: 110vh;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -48,7 +48,8 @@
 
   &__blurb {
     font-family: $subHeader;
-    width: 80%;
+    width: 60%;
+    margin-right: 20px;
     color: black;
     display: flex;
     flex-direction: column;
@@ -59,6 +60,8 @@
 
     @include mobile {
       font-size: 3vw;
+      width: 80%;
+      margin-right: 0px;
       
     }
 
@@ -120,6 +123,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  @include mobile {
+    width: 50vw;
+    
+  }
 
 }&__skill-images {
     display: flex;

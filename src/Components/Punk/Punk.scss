@@ -2,14 +2,14 @@
 @use "../../assets/mixins.scss"as *;
 
 .punk {
-  height: 110vh;
+  height: 120vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 
   @include mobile {
-    height: 120vh;
+    height: 150vh;
   }
   @include tablet {
     height: 140vh;
@@ -38,7 +38,7 @@
 
     @include mobile {
       width: 70vw;
-      min-height: 90vh;
+      min-height: 110vh;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -49,7 +49,7 @@
   &__blurb {
     font-family: $subHeader;
     margin-right: 20px;
-    width: 80%;
+    width: 60%;
     color: black;
     display: flex;
     flex-direction: column;
@@ -60,6 +60,7 @@
 
     @include mobile {
       font-size: 3vw;
+      width: 80%;
       
     }
 

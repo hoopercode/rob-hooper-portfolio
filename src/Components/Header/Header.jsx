@@ -18,7 +18,7 @@ export const Home = () => {
         <a href="https://github.com/hoopercode"target="_blank"><img className="landing__image" src={github} alt="" /></a>
       </div>
       <div>
-        <a href="https://drive.google.com/file/d/11OHKOSzi8LAxpby05J0NIVzFJY-64GpM/view?usp=sharing" target="_blank" className="landing__button">My Résumé</a>
+        <a href="https://drive.google.com/file/d/1ec9aYgBmXxAZANSfgGA3wMeQa78028xm/view?usp=sharing" target="_blank" className="landing__button">My Résumé</a>
         </div>
     </div>
   )
