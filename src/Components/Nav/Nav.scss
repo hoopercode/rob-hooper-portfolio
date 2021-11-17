@@ -1,29 +1,29 @@
 @use "../../assets/variables.scss"as *;
 @use "../../assets/mixins.scss"as *;
 
+
 .topnav {
   background-color: white;
-  opacity: 0.2;
   position: sticky;
+  opacity: 0.2;
   height: 7vh;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: sticky;
+align-self: flex-start;
+top: 0;
+
 
   @include mobile {
     display: none;
   }
 
 &__item  {
-  float: right;
-  display: block;
-  color: black;
-  text-align: center;
-  margin-right: 15px;
-  padding: 14px 14px;
-  text-decoration: none;
-  font-size: 1.5vw;
-  font-weight: 900;
+ width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    float: right;
 
   @include tablet {
     text-align: center;

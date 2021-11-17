@@ -11,7 +11,7 @@ export const Home = () => {
   return (
     <div className="landing">
       <h1 className="landing__header">Rob Hooper</h1>
-      <h3 className="landing__subheading">Junior Full Stack Engineer</h3>
+      <h3 className="landing__subheading">Junior Front-End Developer</h3>
       <div className="landing__images">
         <a href="https://www.linkedin.com/in/robert-james-hooper/"target="_blank"><img className="landing__image" src={linked} alt="" /></a>
         <a href="mailto: hooper.rob@gmail.com"target="_blank"><img className="landing__image" src={gmail} alt="" /></a>
